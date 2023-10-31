@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "backstage-demo"
+  description: "demo of backstage to tooling"
+  annotations:
+    github.com/project-slug: giffgaff/backstage-demo
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "group:default/sre"
